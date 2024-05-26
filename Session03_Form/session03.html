@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <b> &#9654; &#127790; &#127790; &#127790; </b>
+    <abbr title="Loves of TacoS">LTS</abbr>
+
+    <h1>Register Form</h1>
+    <form action="https://www.google.com/" method="POST">
+      <div>
+        <label for="username"> Username: </label>
+        <br />
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter username"
+          name="username"
+        />
+      </div>
+      <div>
+        <label for="password"> Password: </label>
+        <br />
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <label for="email"> Email: </label>
+        <br />
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="age"> Age: </label>
+        <br />
+        <input type="number" id="age" name="age" />
+      </div>
+      <div>
+        <label for="male"> Male: </label>
+        <input type="radio" id="male" name="gender" />
+        <br />
+        <label for="female"> Female: </label>
+        <input type="radio" id="female" name="gender" />
+        <br />
+        <label for="others"> Others: </label>
+        <input type="radio" id="others" name="gender" />
+      </div>
+      <div>
+        <input type="checkbox" id="term" name="term" />
+        <label for="term">Do you agree on all of our terms ??</label>
+      </div>
+      <div>
+        <input type="checkbox" id="receive" name="receive" />
+        <label for="receive"
+          >Do you agree to receive our commercial email ???</label
+        >
+      </div>
+      <div>
+        <input type="datetime-local" />
+      </div>
+
+      <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <option value="Việt Nam">Việt Nam</option>
+          <option value="Nhật Bản">Nhật Bản</option>
+          <option value="Hàn Quốc">Hàn Quốc</option>
+          <option value="Trung Quốc">Trung Quốc</option>
+        </select>
+      </div>
+      <div>
+        <label for="note">Ghi chú</label>
+        <textarea name="note" id="note" cols="30" rows="5"></textarea>
+      </div>
+      <input type="submit" value="Submit !!!!" />
+      <input type="reset" value="Reset !!!!" />
+      <!-- <input type="Button" value="Button !!!!" /> -->
+      <button>Button !!!!</button>
+    </form>
+  </body>
+</html>

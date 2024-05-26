@@ -1,0 +1,48 @@
+.second-div {
+  background-color: hotpink;
+  color: white;
+}
+
+.second-div {
+  background-color: brown;
+}
+
+#last-div {
+  background-color: red;
+  color: white;
+}
+
+.last-div {
+  background-color: aqua;
+  color: black;
+}
+
+.demo-class {
+  background-color: blueviolet;
+  color: white;
+}
+
+i {
+  background-color: aqua;
+  color: white;
+}
+
+.spec-demo {
+  background-color: red;
+  color: blue;
+}
+
+#spec-demo {
+  background-color: #d13232;
+  color: rgb(83, 87, 194);
+}
+
+.title {
+  font-family: "Arial";
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: wavy;
+  text-transform: lowercase;
+}
